@@ -55,10 +55,8 @@ public class fibonacci {
 
         System.out.println("\n");
 
-
         mathFunction.fiboNum(20);
     }
-
 
 
 }
