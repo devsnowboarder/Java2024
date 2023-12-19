@@ -51,16 +51,5 @@ public class MikeStuff {
         for ( String strx: strList)
               System.out.println(strx+ "   "+Collections.frequency(strList,strx));
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }
