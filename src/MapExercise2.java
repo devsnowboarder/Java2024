@@ -4,19 +4,16 @@ import java.util.Map;
 
 public class MapExercise2 {
 
-
-
     public static Hashtable<String,Integer>   carList(Hashtable<String,Integer> items) {
 
         String [] itemlist = {"computer","printer,","mouse","monotor,","keyboard","printer"};
-
 
         for (Map.Entry m:items.entrySet()) {
 
             System.out.println(m.getKey()+" "+m.getValue());
         }
 
-             return items;
+        return items;
     };
 
 

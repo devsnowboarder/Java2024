@@ -7,11 +7,9 @@ public class duplicateitem2 {
 
         charList charList2 = new charList();
 
-
         char[]  charList = {'a','b','g','t','a','b'};
 
         List<String> list = new ArrayList<String>();
-
         List<String> listChar = new ArrayList<String>();
 
         for ( Character xCh : charList)
@@ -39,7 +37,6 @@ public class duplicateitem2 {
         list.add("Kumar");
 
         Map<String, Integer> duplicates = new HashMap<String, Integer>();
-
 
         for (String str : list) {
             if (duplicates.containsKey(str)) {

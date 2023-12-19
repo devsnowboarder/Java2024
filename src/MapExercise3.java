@@ -15,11 +15,8 @@ public class MapExercise3 {
 
        items.put("Apple","iPhone");
 
-
         return items;
     };
-
-
 
     public static void main(String args[]) {
 

@@ -16,8 +16,6 @@ public class duplicatewithSet {
 
     public static void main(String[] args) {
 
-
-
         String test ="Lake Tahoe San Francisco";
         String[] testRev= test.split(" ");
 

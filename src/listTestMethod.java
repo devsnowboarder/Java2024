@@ -23,8 +23,6 @@ import java.util.ArrayList;
 
              for ( int i=0; i < 4; i++ )
                  System.out.println((cars.get(i)));
-
-
         }
     }
 

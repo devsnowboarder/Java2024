@@ -17,10 +17,7 @@ public class duplicateRemoveCharString {
             charList.add(" "+x);
 
       HashSet<String> strSet = new HashSet<>(charList);  // can only use in an ArrayList
-
-
-
-        System.out.println(strSet);
+      System.out.println(strSet);
 
        // HashSet<Integer> numSet = new HashSet<Integer>(num);
 

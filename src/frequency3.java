@@ -17,16 +17,12 @@ public class frequency3 {
 
         return Collections.frequency(number,i);
 
-
-
     }
 
 
     public static void main(String[] args) {
 
         Integer[] num = {1, 6, 3, 10, 5, 6, 6, 6, 6, 6, 7, 8, 8, 8};
-
-
         Character[] charList = {'1', '6', '3','d','5', '6', '6', '6', '6', '6', '7', '8', '8', '8'};
 
         // make it a array list
@@ -36,12 +32,8 @@ public class frequency3 {
 
         List<Character>targetChar =Arrays.asList(charList);
 
-
-
         for ( int i : targetLIST)
             System.out.println(i);
-
-
 
         Set <Integer> number = new HashSet<>(targetLIST);
 

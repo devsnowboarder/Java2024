@@ -27,18 +27,15 @@ public class duplicateItemsSets {
             ListNumX.add(listB[x]);
 
         }
-
         for ( Integer xx: ListNumX)
             if ( !listINTX.add(xx))
                 System.out.println("duplicate  "+ xx);   // prints only the duplicates
-
 
         System.out.println( ListNum);
         System.out.println(Collections.max(ListNumX));
 
         Integer KKK = Collections.max(ListNumX) - Collections.min(ListNumX);
         System.out.println(" Max - Min " +KKK);
-
 
     }
 }

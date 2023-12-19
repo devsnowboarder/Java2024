@@ -39,7 +39,7 @@ public class MapToList {
         for ( String value: listOfValues)
             System.out.println(" name " +value);
 
-        Collections.reverse(listOfValues);
+       Collections.reverse(listOfValues);
         System.out.println(listOfValues);
 
         Collections.reverse(numlistx);
@@ -51,10 +51,8 @@ public class MapToList {
         System.out.println(Collections.max(numlistx));
         System.out.println(Collections.min(numlistx));
 
-        int diff = Collections.max(numlistx) - Collections.min(numlistx);
-
-        System.out.println(diff);
-
+       int diff = Collections.max(numlistx) - Collections.min(numlistx);
+       System.out.println(diff);
 
 
     }
