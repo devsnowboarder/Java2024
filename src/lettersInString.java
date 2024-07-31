@@ -10,10 +10,8 @@ public class lettersInString {
               if (Character.isLetter(str.charAt(i)))
                   letter.add(str.charAt(i));
 
-
         return letter;
     };
-
 
     public static void main(String[] args) {
         String str = "123L4AB3405";
@@ -29,8 +27,6 @@ public class lettersInString {
         System.out.println(counter + " letters.");
 
         System.out.println(" Letter only    "+lettersInString.letterList(str));
-
-
         String teststr = "Hello World";
         int len = teststr.length();
         Map<Character, Integer> numChars = new HashMap<Character, Integer>(Math.min(len, 26));
