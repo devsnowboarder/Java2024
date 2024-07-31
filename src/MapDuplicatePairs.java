@@ -30,8 +30,6 @@ public class MapDuplicatePairs {
                 System.out.println(m2.getValue());
                 if ( !set.add(m2.getValue().toString()));
 
-
-
             }
 
             System.out.println(set);
