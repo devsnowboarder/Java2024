@@ -8,13 +8,11 @@ public class Palindrom2 {
         // check whether the string is palindrome or not
         if (s.equals(reverse))
             System.out.println("Yes");
-
         else
             System.out.println("No");
     }
 
-    public static void main (String[] args)
-            throws Exception
+    public static void main (String[] args) throws Exception
     {
         checkPalindrome("malayalam");
         checkPalindrome("GeeksforGeeks");

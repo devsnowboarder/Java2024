@@ -74,9 +74,6 @@ public class lettersInString {
         String mikeString = "Powell";
         char [] mString = mikeString.toCharArray();
 
-
-
-
         int count = 0;
 
         for (int i = 0; i < mikeString.length(); i++) {
