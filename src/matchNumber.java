@@ -5,8 +5,7 @@ import java.util.Set;
 
 public class matchNumber {
 
-
-     static ArrayList<String> dupliclist (String[] number) {
+    static ArrayList<String> dupliclist (String[] number) {
 
            ArrayList<String> dup = new ArrayList<>();
 
@@ -22,8 +21,6 @@ public class matchNumber {
             }
 
      return dup;
-
-
     };
 
 

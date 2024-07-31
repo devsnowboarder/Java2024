@@ -1,9 +1,7 @@
 import java.util.ArrayList;
 
 
-
     public class listTestMethod {
-
 
         public static ArrayList<String>   carList(ArrayList<String> carxList) {
 
@@ -23,7 +21,6 @@ import java.util.ArrayList;
 
              for ( int i=0; i < 4; i++ )
                  System.out.println((cars.get(i)));
-
 
         }
     }

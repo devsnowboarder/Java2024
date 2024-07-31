@@ -4,10 +4,7 @@ import java.util.Map;
 
 public class MapDuplicatePairs {
 
-
-
-
-        public static void main(String [] args)
+    public static void main(String [] args)
 
         {
 
@@ -33,12 +30,6 @@ public class MapDuplicatePairs {
             }
 
             System.out.println(set);
-
-
-
-
-
-
 
         }
 

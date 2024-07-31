@@ -14,7 +14,6 @@ public class readFilesDirectory {
         {
             System.out.println("picture.add("+"@"+file+"@"+");");
             count++;
-
         }
 
         System.out.println(count);
