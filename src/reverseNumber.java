@@ -43,8 +43,9 @@ public class reverseNumber
         reverseObject reverse = new reverseObject();
 
        System.out.println( reverseNumber.reverseNumbeSub("1234"));
-       System.out.println( reverseNumber.reversNumber2(1234).trim());
-        System.out.println(reverse.reverseItem("5678"));
+
+      // System.out.println( reverseNumber.reversNumber2(1234).trim());
+      //  System.out.println(reverse.reverseItem("5678"));
 
     }
 

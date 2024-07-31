@@ -26,7 +26,7 @@ public class MaxCharString {
             count[str.charAt(i)]++;
             System.out.println(count[i]);
         }
-*/
+        */
 
 
         System.out.println("xxxx"+count[str.charAt(2)]);
