@@ -1,3 +1,4 @@
+import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -8,16 +9,27 @@ public class duplicateRemoveCharString {
 
        // String str = "Exxon";   // output Eon  xx is a duplicate, remove all the duplicate
         String str ="geeksforgeeks";
-        // Integer[] num =[1,3,4,6,1,4,6,9,12];
+         Integer[] num ={1,3,4,6,1,4,6,9,12};
 
 
         char[] charStr = str.toCharArray();
+
+
         ArrayList<String> charList = new ArrayList<>();
+
+        ArrayList<Integer> number = new ArrayList<>();
+
       for (char x : charStr)
             charList.add(" "+x);
 
-      HashSet<String> strSet = new HashSet<>(charList);  // can only use in an ArrayList
+      for (int xnum : num)
+            number.add(xnum);
 
+
+      HashSet<String> strSet = new HashSet<>(charList);  // can only use in an ArrayList
+        HashSet<Integer> numX = new HashSet<>(number);  // can only use in an ArrayList
+
+        System.out.println(" number list no duplicate" + numX);
 
 
         System.out.println(strSet);

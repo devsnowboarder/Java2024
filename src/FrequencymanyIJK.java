@@ -20,26 +20,26 @@ public class FrequencymanyIJK {
     public static void main(String[] args) {
 
         String sequence="AAABBBCCDDY";
-        char[] seq = sequence.toCharArray();
+        char[] seqCharArray = sequence.toCharArray();
+
         char x;
         int count =0;
         String test;
-        x = seq[0];
+        x = seqCharArray[0];
 
         String results=" ";
 
         for ( int i=0; i < sequence.length();i++)
         {
-            if ( x==seq[i]) {
+            if ( x==seqCharArray[i]) {
                 count++;
             }
             else
             {
-              //  System.out.println( count + " "+x);
                 test = " "+count+x;
                 results = results+test;
                 count=1;
-                x = seq[i];
+                x = seqCharArray[i];
             }
         }
      //   System.out.println( count + ""+x);
@@ -47,9 +47,24 @@ public class FrequencymanyIJK {
         results = results + test;
 
         System.out.println(results);
-
-
         stringSeq(sequence);
+
+        //Method # 2 using collection..
+        // convert the String to Char array
+        // add the Char array to ArrayList<Character>
+
+        ArrayList<Character> charList = new ArrayList<Character>();
+        for ( char xx : seqCharArray)   // is the char array
+              charList.add(xx);
+
+         HashSet<Character> charList2 = new HashSet<>(charList);
+
+         System.out.println(" Charlist " + charList2);
+
+        for (char xx : charList2)       //frequency(xx,charList)
+           System.out.println("  number  " + xx +"   "+Collections.frequency(charList, xx));
+
+
     }
 
 
