@@ -70,7 +70,5 @@ public class AnagramProgram
         else
             System.out.println(" it is an Annagram"  +str1);
 
-
-
     }
 }
