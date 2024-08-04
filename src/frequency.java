@@ -31,7 +31,5 @@ public class frequency {
        // System.out.println(Collections.max(charList));
        // System.out.println(".."+Collections.min(charList));
 
-
-
     }
 }

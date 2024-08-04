@@ -1,4 +1,4 @@
-public class Palindrom2 {
+public class paladrome3 {
 
     public static void checkPalindrome(String s)
     {
@@ -17,10 +17,8 @@ public class Palindrom2 {
             throws Exception
     {
         checkPalindrome("malayalam");
-        checkPalindrome("GeeksforGeeks");
+
     }
-
-
 
 
 

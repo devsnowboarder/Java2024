@@ -7,11 +7,9 @@ public class duplicateitem2 {
 
         charList charList2 = new charList();
 
-
         char[]  charList = {'a','b','g','t','a','b'};
 
         List<String> list = new ArrayList<String>();
-
         List<String> listChar = new ArrayList<String>();
 
         for ( Character xCh : charList)
@@ -19,6 +17,7 @@ public class duplicateitem2 {
 
         //  remove the duplicate in the list
         HashSet<String>  strList = new HashSet<>(listChar);
+        System.out.println(" remove list of char" +listChar);
 
          // go through the list once but gets the count
         for (String x: strList)
@@ -58,8 +57,6 @@ public class duplicateitem2 {
 
         for ( String x: list)
             System.out.println(x + "   "+Collections.frequency(list,x));
-
-
         HashSet setString = new HashSet<>(listChar);
 
         System.out.println(setString);
