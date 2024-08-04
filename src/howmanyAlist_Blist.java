@@ -8,7 +8,6 @@ public class howmanyAlist_Blist {
         int[] listA = {1, 3, 4, 6, 7, 9,4,6};
         int[] listB = {1, 2, 4, 5, 6, 2,};
 
-
         Set<Integer> listAA = new HashSet<Integer>();
         Set<Integer> listBB = new HashSet<Integer>();
 
