@@ -50,7 +50,6 @@ public class AnagramProgram
         isAnagram("Mother In Law", "Hitler Woman");
 
         // not using a function
-
         boolean status=true;
          String str1 ="geeksforgeeks";
          String str2 ="forgeeksgeeks";

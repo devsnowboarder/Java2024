@@ -12,17 +12,13 @@ public class ListReverseWords {
 
         String strRev =" ";
 
-        List<String> strList = new ArrayList<>();
-
         for(String x: wordList) {
             System.out.println(x);
             StringBuilder test = new StringBuilder(x);
             strRev = test.reverse().toString()+" " + strRev;
 
         }
-
         return strRev;
-
     };
 
     public static void main(String[] args) {

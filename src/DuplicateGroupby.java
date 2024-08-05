@@ -20,13 +20,13 @@ public class DuplicateGroupby {
                         Function.identity(),
                         Collectors.counting()));
 
-
-
         // Print the result
-
 
         System.out.println(result.keySet()+ "  "+result.values());
         System.out.println(result);
         System.out.println(result.size());
-    }
+
+
+
+   }
 }

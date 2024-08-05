@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class duplicatewithSet {
+public class reverseStringWord {
 
     public static  List<String> listTest(String test) {
 
@@ -15,8 +15,6 @@ public class duplicatewithSet {
     }
 
     public static void main(String[] args) {
-
-
 
         String test ="Lake Tahoe San Francisco";
         String[] testRev= test.split(" ");

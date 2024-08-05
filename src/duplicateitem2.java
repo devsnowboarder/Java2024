@@ -39,7 +39,6 @@ public class duplicateitem2 {
 
         Map<String, Integer> duplicates = new HashMap<String, Integer>();
 
-
         for (String str : list) {
             if (duplicates.containsKey(str)) {
                 duplicates.put(str, duplicates.get(str) + 1);
