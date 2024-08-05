@@ -16,11 +16,9 @@ public class duplicateItemsSets {
         Set<String> listINT = new HashSet<String>();
         Set<Integer> listINTX = new HashSet<Integer>();
 
-
         for ( String k: ListNum)
             if ( !listINT.add(k))
                 System.out.println("duplicate "+ k);
-
 
         for ( int x=0; x < listB.length-1; x++) {
             System.out.println(listB[x]);
