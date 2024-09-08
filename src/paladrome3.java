@@ -19,7 +19,4 @@ public class paladrome3 {
         checkPalindrome("malayalam");
 
     }
-
-
-
 }

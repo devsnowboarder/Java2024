@@ -10,17 +10,17 @@ public class duplicateitem2 {
         char[]  charList = {'a','b','g','t','a','b'};
 
         List<String> list = new ArrayList<String>();
-        List<String> listChar = new ArrayList<String>();
+        List<Character> listChar = new ArrayList<Character>();
 
         for ( Character xCh : charList)
-            listChar.add(" "+xCh);
+            listChar.add(xCh);
 
         //  remove the duplicate in the list
-        HashSet<String>  strList = new HashSet<>(listChar);
-        System.out.println(" remove list of char" +listChar);
+        HashSet<Character>  strList = new HashSet<>(listChar);
+        System.out.println(" remove list of duplicate Characters hashSet" +listChar);
 
-         // go through the list once but gets the count
-        for (String x: strList)
+        // go through the list once but gets the count
+        for (Character x: strList)
         {
             if (Collections.frequency(listChar,x) >1)   // printing all the duplicate
                 System.out.println(" duplicate "+x);

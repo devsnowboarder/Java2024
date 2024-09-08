@@ -12,8 +12,6 @@ public class DuplicateGroupby {
 
         // Collect the list as map
         // by groupingBy() method
-
-
         Map<String, Long> result
                 = g.stream().collect(
                 Collectors.groupingBy(

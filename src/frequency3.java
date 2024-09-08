@@ -65,9 +65,5 @@ public class frequency3 {
             System.out.println(x +"    "+Collections.frequency(targetChar, x));
 
 
-
-
-
-
     }
 }

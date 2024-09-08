@@ -3,8 +3,6 @@ import utility.character;
 import java.util.ArrayList;
 
 public class firstLetterString {
-
-
     // Function to find string which has first
     // character of each word.
     static String firstLetterWord(String str)
@@ -55,7 +53,6 @@ public class firstLetterString {
 
         for ( int i =0; i < listStr.size();i++) {
             temp= (String) listStr.get(i);
-
             System.out.print(temp.substring(0,1));
 
         }

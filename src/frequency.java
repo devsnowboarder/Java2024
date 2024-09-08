@@ -8,22 +8,20 @@ public class frequency {
         String str = "Exxon";
        // Integer[] num =[1,3,4,6,1,4,6,9,12];
 
-
         char[] charStr = str.toCharArray();
 
-        ArrayList<String> charList = new ArrayList<>();
+        ArrayList<Character> charList = new ArrayList<>();
 
         for (char x : charStr)
-            charList.add(" "+x);
+            charList.add(x);
 
-        HashSet<String> strSet = new HashSet<>(charList); // remove all duplicates
+        HashSet<Character> strSet = new HashSet<>(charList); // remove all duplicates
 
        // HashSet<Integer> numSet = new HashSet<Integer>(num);
 
-        for ( String x2: strSet) {
+        for ( Character x2: strSet) {
            // System.out.println(x2 + " " + Collections.frequency(charList, x2));
-
-
+            
             if (Collections.frequency(charList, x2)  < 2)
                 System.out.print(x2);
         }

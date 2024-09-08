@@ -26,8 +26,6 @@ public class duplicateRemoveCharString {
         HashSet<Integer> numX = new HashSet<>(number);  // can only use in an ArrayList
 
         System.out.println(" number list no duplicate" + numX);
-
-
         System.out.println(strSet);
 
        // HashSet<Integer> numSet = new HashSet<Integer>(num);

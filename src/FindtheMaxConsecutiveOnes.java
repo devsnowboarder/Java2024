@@ -12,7 +12,6 @@ public class FindtheMaxConsecutiveOnes {
          int count=0;
         for ( char x: charLIstx) {
 
-
             if (x == '1')
                 count = count + 1;
             else {

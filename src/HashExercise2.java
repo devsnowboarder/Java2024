@@ -8,11 +8,7 @@ public class HashExercise2 {
         Hashtable<Integer,String> MikeHash = new Hashtable<>();
 
         String[] mikeName  ={"mike","joe","jordan","ken","car","car","joe","kim"};
-
-
         int key =0;
-
-
         for ( int i =0; i < mikeName.length; i ++)
             MikeHash.put(i,mikeName[i]);
 
@@ -35,15 +31,12 @@ public class HashExercise2 {
 
         Set<String> mikeSet = new HashSet<String>();
 
-
         for (int i =0; i < mikeName.length; i++)
             if ( !mikeSet.add(MikeHash.get(i))) {
                 System.out.println("Duplicate");
                 System.out.println(MikeHash.get(i));
-
             }
         System.out.println(Collections.frequency(names,"car"));
-
     }
 }
 

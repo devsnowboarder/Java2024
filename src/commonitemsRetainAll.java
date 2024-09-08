@@ -5,8 +5,7 @@ class commonitemsRetainAll {
     // function to create hashsets
     // from arrays and find
     // their common element
-    public static void FindCommonElements(int[] arr1,
-                                          int[] arr2)
+    public static void FindCommonElements(int[] arr1, int[] arr2)
     {
         // create hashsets
         Set<Integer> set1 = new HashSet<>();
@@ -25,6 +24,7 @@ class commonitemsRetainAll {
         // find common elements
         set1.retainAll(set2);
         System.out.println("Common elements- " + set1);
+        System.out.println("Size of  "+set1.size());
     }
 
     // main method
