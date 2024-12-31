@@ -51,7 +51,6 @@ public class duplicateItems
 
         System.out.println(" ");
 
-
         HashSet<String> elementSet = new HashSet<>(Elements);  // remove all the duplicate
         System.out.print("ArrayList After Removing Duplicate Elements :");
 
@@ -64,7 +63,7 @@ public class duplicateItems
                 System.out.println(x + " duplicate");
         }
         System.out.println("  ");
-
+//test
         Iterator<String> itr = Elements.iterator();
 
         while (itr.hasNext())

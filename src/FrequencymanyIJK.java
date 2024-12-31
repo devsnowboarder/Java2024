@@ -57,7 +57,9 @@ public class FrequencymanyIJK {
         for ( char xx : seqCharArray)   // is the char array
               charList.add(xx);
 
-         HashSet<Character> charList2 = new HashSet<>(charList);
+
+
+        HashSet<Character> charList2 = new HashSet<>(charList);
 
          System.out.println(" Charlist " + charList2);
 

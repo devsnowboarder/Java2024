@@ -11,8 +11,7 @@ public class reverseNumber
         int a = 0;
         int x;
 
-
-        System.out.println("Enter any number:");
+      //  System.out.println("Enter any number:");
         n = Integer.parseInt(s);
 
         while(n > 0)
@@ -33,6 +32,8 @@ public class reverseNumber
       public static String  reversNumber2(int number) {
           // need to instancia a memory localation for setting up a
           StringBuilder revStr = new StringBuilder(" "+number);
+
+
           return revStr.reverse().toString();
 
     };
