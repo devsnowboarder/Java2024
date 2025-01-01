@@ -6,7 +6,7 @@ public class readFileDirectoryHTML {
     public static void main(String[] args)
     {
         int count=0;
-        File folder = new File("/Users/michaellau/mike_albums/ericpictures/images");
+        File folder = new File("/Volumes/mike_album/England/images");
 
         String[] files = folder.list();
 
