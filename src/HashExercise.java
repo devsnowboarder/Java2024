@@ -74,7 +74,10 @@ public class HashExercise {
         System.out.println("-------------Hash table--------------");
         for (Map.Entry m:ht.entrySet()) {
             System.out.println(m.getKey()+" "+m.getValue());
+
         }
+
+
 
 /// test
         System.out.println("-------------Hash table--------------");

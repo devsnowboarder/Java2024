@@ -53,6 +53,7 @@ public class duplicateItems
 
 
         HashSet<String> elementSet = new HashSet<>(Elements);  // remove all the duplicate
+          // Elements is declared as a list of array string
         System.out.print("ArrayList After Removing Duplicate Elements :");
 
 
