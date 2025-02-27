@@ -17,6 +17,9 @@ class commonitemsRetainAll {
             set1.add(i);
         }
 
+
+
+
         // Adding elements from array2
         for (int i : arr2) {
             set2.add(i);
