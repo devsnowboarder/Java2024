@@ -9,6 +9,7 @@ public class frequency3 {
         List<Integer> numx = new ArrayList<Integer>();
         Collections.sort(targetList);
 
+
         return targetList;
 
     }
