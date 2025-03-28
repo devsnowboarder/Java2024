@@ -15,6 +15,7 @@ class Builder {
 
 public class builderExample {
     public static void main(String[] args) {
+
         new Builder().setName("John").display(); // Output: Name: John
     }
 }
