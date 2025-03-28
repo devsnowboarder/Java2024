@@ -1,9 +1,9 @@
 package This_Tutor;
 
-class Person {
+class Person2 {
     private String name;
 
-    public Person(String name) {
+    public Person2(String name) {
         this.name = name; // Refers to the instance variable "name"
     }
 
@@ -14,7 +14,7 @@ class Person {
 
 public class thisExample {
     public static void main(String[] args) {
-        Person p = new Person("Alice");
+        Person2 p = new Person2("Alice");
         p.display(); // Output: Name: Alice
     }
 }
