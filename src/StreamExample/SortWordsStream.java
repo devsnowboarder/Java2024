@@ -17,5 +17,12 @@ public class SortWordsStream {
         long size = words.stream().count();
 
         System.out.println(" Size "+size);
+
+
+       //  .mapToObj(i-> "numbers " + i)
+
+        List<String> sortedList = words.stream().sorted().collect(Collectors.toList());
+
+        System.out.println(" Test = "+sortedList);
     }
 }

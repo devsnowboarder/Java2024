@@ -14,7 +14,7 @@ public class MapToObjectExample {
 
 
         List<String> listPlus2 = IntStream.rangeClosed(1,5)
-                 .mapToObj(i-> "numbers " + i +2)
+                 .mapToObj(i-> "numbers " + i)
                 .collect(Collectors.toList());
 
         System.out.println(listPlus2);
