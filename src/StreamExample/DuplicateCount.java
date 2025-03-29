@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
     public class DuplicateCount {
         public static void main(String[] args) {
-            List<Integer> numbers = Arrays.asList(4, 5, 6, 4, 7, 8, 5, 9, 10);
+            List<Integer> numbers = Arrays.asList(4, 5, 6, 4, 7, 8, 5, 9, 10,4,5,5);
 
             Map<Integer, Long> duplicates = findDuplicateCounts(numbers);
             System.out.println("Duplicate Counts: " + duplicates);
