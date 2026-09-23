@@ -33,6 +33,8 @@ public class AnagramProgram
             status = Arrays.equals(s1Array, s2Array);
         }
 
+
+
         //Output
 
         if(status)
@@ -43,6 +45,8 @@ public class AnagramProgram
         {
             System.out.println(s1+" and "+s2+" are not anagrams");
         }
+
+        System.out.println(" This is a test ") ;
     }
 
     public static void main(String[] args)
@@ -69,5 +73,7 @@ public class AnagramProgram
         else
             System.out.println(" it is an Annagram"  +str1);
 
-    }
+
+
+    ;;}
 }

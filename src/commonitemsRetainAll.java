@@ -31,7 +31,7 @@ class commonitemsRetainAll {
     public static void main(String[] args)
     {
         // create Array 1
-        int[] arr1 = { 1, 4, 9, 16, 25, 36, 49, 64, 81, 100 };
+        int[] arr1 = { 1, 4, 9,11,13, 16, 25, 36, 49, 64, 81, 100 };
         // create Array 2
         int[] arr2 = { 100, 9, 64, 7, 36, 5, 16, 3, 4, 1 };
 
