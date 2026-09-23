@@ -22,7 +22,7 @@ public class frequency {
         for ( String x2: strSet) {
            // System.out.println(x2 + " " + Collections.frequency(charList, x2));
 
-            if (Collections.frequency(charList, x2)  < 2)
+            if (Collections.frequency(charList, x2)  < 2)   // use the built in library  frequency
                 System.out.print(x2);
         }
 
