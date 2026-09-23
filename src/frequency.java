@@ -17,17 +17,17 @@ public class frequency {
             charList.add(" "+x);
 
         HashSet<String> strSet = new HashSet<>(charList); // remove all duplicates
-
        // HashSet<Integer> numSet = new HashSet<Integer>(num);
 
         for ( String x2: strSet) {
            // System.out.println(x2 + " " + Collections.frequency(charList, x2));
 
-
             if (Collections.frequency(charList, x2)  < 2)
                 System.out.print(x2);
         }
 
+
+        System.out.println("This is a test ");
        // System.out.println(Collections.max(charList));
        // System.out.println(".."+Collections.min(charList));
 
