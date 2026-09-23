@@ -21,6 +21,8 @@ public class tryandcatch2 {
          System.out.println("rest of the code");
      }
 
+
+
     public static void trycatch3()
     {
         try{
