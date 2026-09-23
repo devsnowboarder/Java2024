@@ -11,6 +11,8 @@ class xiterator {
         cars.add("Ford");
         cars.add("Mazda");
 
+
+
         // Get the iterator
         Iterator<String> it = cars.iterator();
 
