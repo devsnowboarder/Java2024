@@ -33,6 +33,8 @@ public class AnagramProgram
             status = Arrays.equals(s1Array, s2Array);
         }
 
+
+
         //Output
 
         if(status)
